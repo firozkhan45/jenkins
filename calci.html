@@ -1,58 +1,9 @@
+<!DOCTYPE html>
 <html>
-<head>
-<script language="javascript">
-var no1=0;
-var no2=0;
-var res=0;
-function read()
-{
-a=document.f1.n1.value;
-b=document.f1.n2.value;
-no1=parseInt(a);
-no2=parseInt(b);
-}
-function add()
-{
-read();
-res=no1+no2;
-document.f1.res.value=res;
-}
-function sub()
-{
-read();
-res=no1-no2;
-document.f1.res.value=res;
-}
-function mul()
-{
-read();
-res=no1*no2;
-document.f1.res.value=res;
-}
-function div()
-{
-read();
-res=no1/no2;
-document.f1.res.value=res;
-}
-function mod()
-{
-read();
-res=no1%no2;
-document.f1.res.value=res;
-}
-</script>
-</head>
 <body>
-<form name="f1" action=" ">
-no1<input type="text" name="n1"><br>
-no2<input type="text" name="n2"><br>
-res<input type="text" name="res"><br>
-<input type="button" name="b1" value="+" onclick ="add();">
-<input type="button" name="b2" value="-" onclick ="sub();">
-<input type="button" name="b3" value="*" onclick ="mul();">
-<input type="button" name="b4" value="/" onclick ="div();">
-<input type="button" name="b5" value="%" onclick ="mod();">
-</form>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
 </body>
 </html>
